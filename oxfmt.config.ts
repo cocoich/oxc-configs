@@ -1,5 +1,22 @@
 import { defineConfig } from 'oxfmt'
 
-import loguxOxfmtConfig from './fmt.js'
-
-export default defineConfig(loguxOxfmtConfig)
+export default defineConfig({
+  arrowParens: 'avoid',
+  jsxSingleQuote: false,
+  quoteProps: 'consistent',
+  semi: false,
+  singleQuote: true,
+  sortImports: {
+    groups: [
+      'side_effect',
+      'side_effect_style',
+      'style',
+      ['builtin', 'external', 'unknown'],
+      ['internal', 'parent', 'sibling', 'index']
+    ],
+    newlinesBetween: true,
+    order: 'asc'
+  },
+  trailingComma: 'none',
+  printWidth: 80
+})
