@@ -1,3 +1,5 @@
+.github/
+tsdown.config.ts
 tsconfig.json
-
-demo/
+oxfmt.config.ts
+oxlint.config.ts
