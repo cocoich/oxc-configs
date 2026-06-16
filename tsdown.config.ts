@@ -4,6 +4,7 @@ export default defineConfig({
   entry: { lint: 'oxlint.config.ts', fmt: 'oxfmt.config.ts' },
   exports: true,
   dts: true,
-
-  external: ['oxlint', 'oxfmt'],
+  deps: {
+    neverBundle: ['oxlint', 'oxfmt'],
+  },
 })
