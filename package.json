@@ -15,10 +15,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "test:lint": "oxlint",
-    "test:format": "oxfmt --check",
-    "test:demo": "node demo/test.js",
-    "test": "pnpm run /^test:/"
+    "build": "tsdown"
   },
   "devDependencies": {
     "actions-up": "^1.14.0",
