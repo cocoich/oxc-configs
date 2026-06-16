@@ -17,7 +17,6 @@ export default {
     window: 'readonly'
   },
   plugins: ['import', 'node', 'unicorn', 'typescript'],
-  jsPlugins: ['eslint-plugin-prefer-let'],
   rules: {
     'import/first': 'error',
     'import/no-absolute-path': [

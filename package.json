@@ -22,9 +22,6 @@
     "test:demo": "node demo/test.js",
     "test": "pnpm run /^test:/"
   },
-  "dependencies": {
-    "eslint-plugin-prefer-let": "^4.2.2"
-  },
   "devDependencies": {
     "actions-up": "^1.14.0",
     "clean-publish": "^6.0.5",
